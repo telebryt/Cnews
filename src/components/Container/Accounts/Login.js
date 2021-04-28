@@ -76,19 +76,20 @@ class Login extends Component {
                   </label>
                 </div>
               </div>
-              
-                <button
-                  type="submit"
-                  className="btn btn-primary btn-block btn-rounded"
-                >
-                  Login
-                </button>
-              
-              
+
+              <button
+                type="submit"
+                className="btn btn-primary btn-block btn-rounded"
+              >
+                Login
+              </button>
             </form>
             <div className="dropdown-divider"></div>
             <Link to="/register">New around here? Sign up</Link> <br />
-            <Link to="/register"> Forgot Password?</Link>
+            <a href="https://telebryt.pythonanywhere.com/password-reset/">
+              {" "}
+              Forgot Password?
+            </a>
           </div>
         );
     }

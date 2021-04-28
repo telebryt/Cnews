@@ -41,7 +41,6 @@ function Post(props) {
       });
       toast.success("Welcome to CN 😊 😘");
       setloading(true);
-      console.log(res.data);
     });
   }, []);
   const [pageNumber, setPagenumber] = useState(0);
@@ -51,9 +50,8 @@ function Post(props) {
   const ChangePage = ({ selected }) => {
     setPagenumber(selected);
   };
-  console.log(feature.post.title);
   const trend = trending.post;
-  console.log(trend);
+  // console.log(trend);
   return (
     <Fragment>
       <div className="container">

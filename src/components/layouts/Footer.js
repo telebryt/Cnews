@@ -37,6 +37,12 @@ export default class Footer extends Component {
                     <p className="copyright text-muted">
                       Copyright &copy; Campus News 2021
                     </p>
+                    <p className="copyright text-muted">
+                      privacy & security <a href="1.1.0.">privacy</a>
+                    </p>
+                    <p className="copyright text-muted">
+                      contact us <a href="https://wa.me/233543340697">contact</a>
+                    </p>
                   </div>
                 </div>
               </div>

@@ -86,7 +86,6 @@ const NewProfile = (props) => {
       .catch((err) => toast.error("Post not created"));
 
   }; 
-  console.log(profiles.data)
  
   return (
     <Fragment>

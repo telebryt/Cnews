@@ -27,7 +27,7 @@ function Profile(props) {
   }
     
   
-  console.log(passRet)
+  // console.log(passRet)
   const onSubmit = (e) => {
     e.preventDefault();
     props.PasswordReset(passRet);
@@ -35,7 +35,7 @@ function Profile(props) {
   }
   const profile = props.profiles.data;
   const userdata = props.profiles.data.prouser
-  console.log(userdata)
+  // console.log(userdata)
   return (
     <>
       <div className="text-center container col-md-6">
