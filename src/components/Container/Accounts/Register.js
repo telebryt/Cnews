@@ -51,6 +51,7 @@ class Register extends Component {
           <div className="form-row">
             <div className="htmlForm-group col-md-6">
               <label htmlFor="inputEmail4">Email</label>
+              <small>please your email is very important because you need it to reset your password</small>
               <input
                 type="email"
                 className="form-control"
