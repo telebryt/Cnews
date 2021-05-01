@@ -38,7 +38,7 @@ function Category(props) {
             <Link className="p-2 link-secondary" to="/category/Politics">
               Politics
             </Link>
-            <Link className="p-2 link-secondary" to="category/Relationship">
+            <Link className="p-2 link-secondary" to="/category/Relationship">
               Relationship
             </Link>
             <Link className="p-2 link-secondary" to="/category/Education">
