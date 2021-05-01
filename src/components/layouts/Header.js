@@ -171,13 +171,7 @@ const [data, setData] = useState({ search: "" });
                 <span className="subheading">
                   Explore Your Campus Always With A smile 😊 😌{" "}
                 </span>
-                <span className="subheading">
-                  Please the App is under testing ....
-                </span>
-                <span className="subheading">
-                  For recommendation or interest{" "}
-                  <a href="https://wa.me/233543340697">click here</a>
-                </span>
+                
                 <div className="text-white font-weight-bold h5 mt-4">
                   <span>
                     <div>
