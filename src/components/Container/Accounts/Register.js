@@ -50,8 +50,9 @@ class Register extends Component {
         <form onSubmit={this.onSubmit}>
           <div className="form-row">
             <div className="htmlForm-group col-md-6">
-              <label htmlFor="inputEmail4">Email</label>
-              <small>please your email is very important because you need it to reset your password</small>
+              <label htmlFor="inputEmail4">Email</label><br />
+              <small>please your email is very important because <br />
+                you need it to reset your password</small>
               <input
                 type="email"
                 className="form-control"
