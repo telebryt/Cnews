@@ -139,25 +139,33 @@ const DetailedPage = (props) => {
     <>
       <section>
         {loading ? (
-          <div className="col-md-12 shadow-lg">
-            <div className="container">
-              <div className="col mb-4 text-center">
-                <img
-                  src={data.posts.images}
-                  className="card-img-top col-md-6"
-                  alt="have fun"
-                  height="240"
-                  width="150"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">{data.posts.title}</h5>
-                  <p className="card-text">{data.posts.content}</p>
+          <div className="container shadow-lg">
+            <div className="container p-0">
+              <div className="col mb-4 ">
+                
+               
+                <div className="card">
+                  <img
+                    src={data.posts.images}
+                    className="card-img-top text-center"
+                    alt="have fun"
+                    height="240"
+                    width="100"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">
+                      {data.posts.title}
+                    </h5>
+                    <p className="card-text text-justify">
+                      {data.posts.content}
+                    </p>
 
-                  <div className="card-footer">
-                    <small className="text-muted">
-                      Published on: {data.posts.Published} By{" "}
-                      {data.posts.subAuthor}
-                    </small>
+                    <div className="card-footer">
+                      <small className="text-muted">
+                        Published on: {data.posts.Published} By{" "}
+                        {data.posts.subAuthor}
+                      </small>
+                    </div>
                   </div>
                 </div>
               </div>
