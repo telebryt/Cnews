@@ -128,7 +128,7 @@ function Post(props) {
                     <div className="card-footer rounded">
                       <small className="text-muted text-capitalize">
                         Published on: {post.Published} By {post.subAuthor} As{" "}
-                        {post.category}
+                        {post.category} From {post.campus}
                       </small>
                     </div>
                   </div>
@@ -145,7 +145,7 @@ function Post(props) {
                   .slice(pagesVisited, pagesVisited + PostperPage)
                   .map((post) => (
                     <div key={post.id} className="col mb-4 shadow-lg">
-                      <div className="card">
+                      <div className="card border-0 p-0">
                         <img
                           src={post.images}
                           className="card-img-top"
@@ -169,7 +169,7 @@ function Post(props) {
                             <small className="text-muted">
                               {" "}
                               Published on: {post.Published} By {post.subAuthor}{" "}
-                              As {post.category}
+                              As {post.category} From {post.campus}
                             </small>
                           </p>
                         </div>

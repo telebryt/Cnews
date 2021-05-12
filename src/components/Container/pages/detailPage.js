@@ -139,19 +139,19 @@ const DetailedPage = (props) => {
     <>
       <section>
         {loading ? (
-          <div className="container shadow-lg">
-            <div className="container p-0">
-              <div className="col mb-4 ">
-                
-               
-                <div className="card">
-                  <img
-                    src={data.posts.images}
-                    className="card-img-top text-center"
-                    alt="have fun"
-                    height="240"
-                    width="100"
-                  />
+          <div className="col-md-12">
+            <div className="text-center">
+              <img
+                src={data.posts.images}
+                className="card-img-top col-md-6"
+                alt="have fun"
+                height="240"
+                width="10"
+              />
+            </div>
+            <div className="p-0">
+              <div className="card border-0 col-md-12 p-0">
+                <div className="col mb-4 ">
                   <div className="card-body">
                     <h5 className="card-title text-center">
                       {data.posts.title}
@@ -163,7 +163,7 @@ const DetailedPage = (props) => {
                     <div className="card-footer">
                       <small className="text-muted">
                         Published on: {data.posts.Published} By{" "}
-                        {data.posts.subAuthor}
+                        {data.posts.subAuthor} From: {data.posts.campus}
                       </small>
                     </div>
                   </div>
