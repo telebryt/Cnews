@@ -55,7 +55,7 @@ export default function UpdatePosts() {
           }
         );
         history.push({
-            pathname: '/',
+            pathname: '/dashboard',
         });
         // window.location.reload();
     };

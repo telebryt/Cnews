@@ -51,7 +51,8 @@ function Post(props) {
     setPagenumber(selected);
   };
   const trend = trending.post;
-  // console.log(trend);
+  console.log(trend);
+  console.log(props.posts)
   return (
     <Fragment>
       <div className="container">

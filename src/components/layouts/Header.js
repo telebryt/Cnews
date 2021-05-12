@@ -66,12 +66,20 @@ const [data, setData] = useState({ search: "" });
         </span>
       </li>
       {isStaff ? (
+        <>
         <li className="nav-item">
           <span className="nav-link">
             {" "}
             <Link to="/createPost">Create Post</Link>
           </span>
         </li>
+        <li className="nav-item">
+          <span className="nav-link">
+            {" "}
+            <Link to="/dashboard">Dashboard</Link>
+          </span>
+          </li>
+        </>
       ) : (
         ""
       )}

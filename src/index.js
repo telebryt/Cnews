@@ -25,6 +25,7 @@ import NewProfile from "../src/components/Container/pages/NewProfile";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "jquery/dist/jquery.js"
+import Dashboard from "./components/Container/Admin/Dashboard";
 const App = (props) => {
 
     return (
@@ -42,6 +43,7 @@ const App = (props) => {
                 <Route exact path="/detailPage/:id" component={DetailPage} />
                 <Route exa1t path="/update/:id" component={Update} />
                 <Route exact path="/category/:id" component={Category} />
+                <Route exact path="/dashboard" component={Dashboard} />
                 <Route exa1t path="/search" component={Searchbar} />
                 <Route exact path="/prof" component={NewProfile} />
                 <Route exact path="/profile" component={Profile} />
