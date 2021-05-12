@@ -140,6 +140,8 @@ const DetailedPage = (props) => {
       <section>
         {loading ? (
           <div className="col-md-12">
+            <div className="p-0">
+              <div className="card border-0 col-md-12 p-0">
             <div className="text-center">
               <img
                 src={data.posts.images}
@@ -149,8 +151,6 @@ const DetailedPage = (props) => {
                 width="10"
               />
             </div>
-            <div className="p-0">
-              <div className="card border-0 col-md-12 p-0">
                 <div className="col mb-4 ">
                   <div className="card-body">
                     <h5 className="card-title text-center">
