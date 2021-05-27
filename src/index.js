@@ -26,6 +26,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "jquery/dist/jquery.js"
 import Dashboard from "./components/Container/Admin/Dashboard";
+import Event from "./components/Container/userspost/Event";
+import Rumour from "./components/Container/userspost/Rumour";
+import Letmknoiz from "./components/Container/userspost/letsmknoiz";
 const App = (props) => {
 
     return (
@@ -47,6 +50,9 @@ const App = (props) => {
                 <Route exa1t path="/search" component={Searchbar} />
                 <Route exact path="/prof" component={NewProfile} />
                 <Route exact path="/profile" component={Profile} />
+                <Route exact path="/event" component={Event} />
+                <Route exact path="/rumour" component={Rumour} />
+                <Route exact path="/letmknoiz" component={Letmknoiz} />
                 <Route component={PageNotFound} />
               </Switch>
               <ToastContainer autoClose={3000} hideProgressBar />

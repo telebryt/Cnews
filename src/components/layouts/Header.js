@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
 import { logout } from "../../Actions/Auth";
@@ -179,7 +179,7 @@ const [data, setData] = useState({ search: "" });
                 <span className="subheading">
                   Explore Your Campus Always With A smile 😊 😌{" "}
                 </span>
-                
+
                 <div className="text-white font-weight-bold h5 mt-4">
                   <span>
                     <div>
@@ -189,6 +189,17 @@ const [data, setData] = useState({ search: "" });
                         ? "Good afternoon "
                         : "Good evening"}
                     </div>
+                    {/* <div className="mt-3 subnav">
+                      <button className="btn btn-info" type="submit">
+                        <Link to="/letmknoiz">letzmknoiz</Link>
+                      </button>
+                      <button className="btn btn-info ml-2" type="submit">
+                        <Link to="/event">Events</Link>
+                      </button>
+                      <button className="btn btn-info ml-2" type="submit">
+                        <Link to="/rumour">Rumour</Link>
+                      </button>
+                    </div> */}
                   </span>
                 </div>
               </div>

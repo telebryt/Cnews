@@ -44,7 +44,7 @@ function Post(props) {
     });
   }, []);
   const [pageNumber, setPagenumber] = useState(0);
-  const PostperPage = 5;
+  const PostperPage = 10;
   const pagesVisited = PostperPage * pageNumber;
   const pageCount = Math.ceil(props.posts.length / PostperPage);
   const ChangePage = ({ selected }) => {
